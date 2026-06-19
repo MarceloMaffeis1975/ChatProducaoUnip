@@ -20,7 +20,7 @@ st.set_page_config(page_title="Dashboard SENAI", page_icon="🏭", layout="wide"
 @st.cache_data
 def carregar_dados():
     try:
-        tabela = pd.read_csv("ChatProducaoUnip/dados_producao.csv)
+        tabela = pd.read_csv("dados_producao.csv)
         tabela["Data"] = pd.to_datetime(tabela["Data"])
         return tabela
     except Exception as e:
