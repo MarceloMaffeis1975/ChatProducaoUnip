@@ -36,7 +36,7 @@ if df.empty:
 # 4. CONSTRUINDO O VISUAL DO SITE E OS GRÁFICOS
 # =====================================================================
 st.image("logo-senai-1.png")
-st.title("🏭 Centro de Controle de Produção Avançado")
+st.title("🏭 Centro de Controle de Produção Avançado - IA Transformers")
 st.markdown("Monitoramento detalhado por **Setor** e **Operador**.")
 st.divider() 
 
